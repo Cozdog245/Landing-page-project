@@ -1,0 +1,44 @@
+/* stylesheet */
+
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content{
+    display: flex;
+    
+}
+
+.content-image{
+    width: 400px;
+    height: 200px;
+}
+
+
+.images{
+    display: flex;
+}
+
+.whiskey{
+    width: 200px;
+    height: 200px;
+}
+
+
+.quote{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    
+
+}
+
