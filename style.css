@@ -3,12 +3,22 @@
 body{
     display: flex;
     flex-direction: column;
-    
+    padding: 0px 64px;
+    margin: 0px;
+    min-height: 100vh;
+
 }
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
+
+.links{
+    display: flex;
+    gap: 12px;
+    padding: 0;
+}
+
 
 .content{
     display: flex;
@@ -26,8 +36,8 @@ body{
 }
 
 .whiskey{
-    width: 200px;
-    height: 200px;
+    width: auto;
+    height: 150px;
 }
 
 
@@ -38,7 +48,7 @@ body{
 
 .footer{
     display: flex;
-    
-
+    align-items: center;
+    margin-top: auto;
 }
 
