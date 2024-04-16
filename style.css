@@ -63,7 +63,7 @@ h4{
     display: flex;
     padding: 0px 96px;
     text-align: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .whiskey{
